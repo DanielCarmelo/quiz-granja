@@ -15,7 +15,7 @@
     
     // Al finalizar, enviamos los datos
     function enviarResultados(puntos) {
-        const url = "https://script.google.com/macros/s/AKfycbzfG5_Bvt_GM0rEajSuHLkXy4GUkGMTm7mgXNMs9HEUrblafYqWMCwQ23srQwujkaJiYA/exec";
+        const url = "AKfycbzfG5_Bvt_GM0rEajSuHLkXy4GUkGMTm7mgXNMs9HEUrblafYqWMCwQ23srQwujkaJiYA";
         fetch(url, {
             method: "POST",
             body: JSON.stringify({ nombre: nombreUsuario, puntaje: puntos })
