@@ -1,0 +1,24 @@
+<div id="login-container">
+    <input type="text" id="username" placeholder="Escribe tu nombre">
+    <button onclick="iniciarQuiz()">Comenzar Quiz</button>
+</div>
+
+<script>
+    let nombreUsuario = "";
+    function iniciarQuiz() {
+        nombreUsuario = document.getElementById('username').value;
+        if(nombreUsuario === "") return alert("Por favor, ingresa tu nombre");
+        document.getElementById('login-container').style.display = 'none';
+        document.getElementById('quiz-container').style.display = 'block';
+        mostrarPregunta();
+    }
+    
+    // Al finalizar, enviamos los datos
+    function enviarResultados(puntos) {
+        const url = "TU_URL_DE_APPS_SCRIPT_AQUI";
+        fetch(url, {
+            method: "POST",
+            body: JSON.stringify({ nombre: nombreUsuario, puntaje: puntos })
+        });
+    }
+</script>
