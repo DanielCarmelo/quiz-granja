@@ -1,0 +1,9 @@
+Gestionar implementaciones
+La implementación se ha actualizado correctamente.
+Versión 1 del 15 jun 2026, 17:59
+ID de implementación
+AKfycbzfG5_Bvt_GM0rEajSuHLkXy4GUkGMTm7mgXNMs9HEUrblafYqWMCwQ23srQwujkaJiYA
+Aplicación web
+URL
+https://script.google.com/macros/s/AKfycbzfG5_Bvt_GM0rEajSuHLkXy4GUkGMTm7mgXNMs9HEUrblafYqWMCwQ23srQwujkaJiYA/exec
+https://script.google.com/macros/s/AKfycbzfG5_Bvt_GM0rEajSuHLkXy4GUkGMTm7mgXNMs9HEUrblafYqWMCwQ23srQwujkaJiYA/exec
